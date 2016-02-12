@@ -251,7 +251,7 @@
         setTimeout(function() {
           _this.confirmation.className = '';
           return setTimeout(function() {
-            _this.confirmation.innerHTML = "<span style='color: white;'>Have Fun! By Kabir Shah</span>";
+            _this.confirmation.innerHTML = "<span style='color: white;'>Arrow Keys to Move, and Click To Lay Bombs! By Kabir Shah</span>";
             _this.confirmation.className = 'show';
             return setTimeout(function() {
               return _this.confirmation.className = '';
