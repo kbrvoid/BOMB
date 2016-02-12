@@ -243,7 +243,7 @@
         document.head.appendChild(style);
         this.confirmation = document.createElement("div");
         this.confirmation.id = 'BombConfirmation';
-        this.confirmation.innerHTML = "<span style='font-weight:bold;'>BOMB is loaded!</span>" + (document.title.substring(0, 50));
+        this.confirmation.innerHTML = "<span style='font-weight:bold;'>DESTROY is loaded!</span>" + (document.title.substring(0, 50));
         this.body.appendChild(this.confirmation);
         setTimeout(function() {
           return _this.confirmation.className = 'show';
